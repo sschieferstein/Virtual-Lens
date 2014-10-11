@@ -5,6 +5,6 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
-	<classpathentry kind="lib" path="/Users/bernard/Documents/workspace2/Vlens/cwac-camera-0.6.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/bernard/Documents/workspace/demo/cwac-camera-0.6.10.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
