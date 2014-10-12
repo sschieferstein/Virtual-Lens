@@ -1,9 +1,0 @@
-detection text changed
-deleted:
-mirror
-flash
-to delete:
-single-shot mode
-get rid of "take picture" functions (like in "launch fullscreen")
-"launch camera app"
-
