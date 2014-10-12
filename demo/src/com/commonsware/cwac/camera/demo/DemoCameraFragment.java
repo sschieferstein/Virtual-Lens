@@ -45,10 +45,10 @@ public class DemoCameraFragment extends CameraFragment implements
   private MenuItem singleShotItem=null;
   private MenuItem autoFocusItem=null;
   private MenuItem takePictureItem=null;
-  private MenuItem flashItem=null;
+  //private MenuItem flashItem=null;
   private MenuItem recordItem=null;
   private MenuItem stopRecordItem=null;
-  private MenuItem mirrorFFC=null;
+ // private MenuItem mirrorFFC=null;
   private boolean singleShotProcessing=false;
   private SeekBar zoom=null;
   private long lastFaceToast=0L;
@@ -108,10 +108,10 @@ public class DemoCameraFragment extends CameraFragment implements
     singleShotItem=menu.findItem(R.id.single_shot);
     singleShotItem.setChecked(getContract().isSingleShotMode());
     autoFocusItem=menu.findItem(R.id.autofocus);
-    flashItem=menu.findItem(R.id.flash);
+   // flashItem=menu.findItem(R.id.flash);
     recordItem=menu.findItem(R.id.record);
     stopRecordItem=menu.findItem(R.id.stop);
-    mirrorFFC=menu.findItem(R.id.mirror_ffc);
+   // mirrorFFC=menu.findItem(R.id.mirror_ffc);
 
     if (isRecording()) {
       recordItem.setVisible(false);
@@ -176,11 +176,11 @@ public class DemoCameraFragment extends CameraFragment implements
 
         return(true);
 
-      case R.id.flash:
+    /*  case R.id.flash:
       case R.id.mirror_ffc:
         item.setChecked(!item.isChecked());
 
-        return(true);
+        return(true);*/
     }
 
     return(super.onOptionsItemSelected(item));
@@ -235,9 +235,9 @@ public class DemoCameraFragment extends CameraFragment implements
 
     PictureTransaction xact=new PictureTransaction(getHost());
 
-    if (flashItem!=null && flashItem.isChecked()) {
+  /*  if (flashItem!=null && flashItem.isChecked()) {
       xact.flashMode(flashMode);
-    }
+    }*/
 
     takePicture(xact);
   }
@@ -325,12 +325,12 @@ public class DemoCameraFragment extends CameraFragment implements
 
     @Override
     public Parameters adjustPreviewParameters(Parameters parameters) {
-      flashMode=
+  /*    flashMode=
           CameraUtils.findBestFlashModeMatch(parameters,
                                              Camera.Parameters.FLASH_MODE_RED_EYE,
                                              Camera.Parameters.FLASH_MODE_AUTO,
                                              Camera.Parameters.FLASH_MODE_ON);
-
+*/
       if (doesZoomReallyWork() && parameters.getMaxZoom() > 0) {
         zoom.setMax(parameters.getMaxZoom());
         zoom.setOnSeekBarChangeListener(DemoCameraFragment.this);
@@ -357,7 +357,7 @@ public class DemoCameraFragment extends CameraFragment implements
         long now=SystemClock.elapsedRealtime();
 
         if (now > lastFaceToast + 10000) {
-          Toast.makeText(getActivity(), "I see your face!",
+          Toast.makeText(getActivity(), "You are so hooooot!",
                          Toast.LENGTH_LONG).show();
           lastFaceToast=now;
         }
@@ -372,9 +372,9 @@ public class DemoCameraFragment extends CameraFragment implements
       takePictureItem.setEnabled(true);
     }
     
-    @Override
-    public boolean mirrorFFC() {
+  //  @Override
+ /*   public boolean mirrorFFC() {
       return(mirrorFFC.isChecked());
-    }
+    }*/
   }
 }
