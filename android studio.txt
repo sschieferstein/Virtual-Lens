@@ -1,0 +1,10 @@
+~demo was changed because gradleing it changes the files a bit~
+
+-set up git by giving it the location of your git.exe
+-download gradle 1.12 (has to be this one)
+-import the demo project folder
+-it SHOULD ask you where your gradle is, point to the location of your gradle 1.12 folder
+-if a green box pops up in the upper right hand asking you to configure the project press configure and ok 
+-make sure to download sdk 2.2.4 through the sdk manager
+
+I think this is all I did to make it work in the end. There were a lot of useless intermediary steps that we'll not talk about.
