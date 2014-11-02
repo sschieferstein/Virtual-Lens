@@ -38,6 +38,10 @@
 		android:checked="true"
 		android:title="@string/show_zoom">
 	</item>
+    <item
+        android:id="@+id/ground_height"
+        android:title="@string/ground_height">
+    </item>
 <!--  	<item
 		android:id="@+id/flash"
 		android:checkable="true"

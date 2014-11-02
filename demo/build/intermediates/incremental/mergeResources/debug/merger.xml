@@ -2,148 +2,148 @@
 <merger version="2" >
 
     <dataSet config="0.6.10" >
-        <source path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\build\intermediates\exploded-aar\com.commonsware.cwac\camera\0.6.10\res" >
+        <source path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res" >
             <file
                 name="cwac_camera_profile_htc_htc_mecha"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\build\intermediates\exploded-aar\com.commonsware.cwac\camera\0.6.10\res\xml\cwac_camera_profile_htc_htc_mecha.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_htc_htc_mecha.xml"
                 qualifiers=""
                 type="xml" />
             <file
                 name="cwac_camera_profile_htc_m7"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\build\intermediates\exploded-aar\com.commonsware.cwac\camera\0.6.10\res\xml\cwac_camera_profile_htc_m7.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_htc_m7.xml"
                 qualifiers=""
                 type="xml" />
             <file
                 name="cwac_camera_profile_motorola_xt910_rtanz"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\build\intermediates\exploded-aar\com.commonsware.cwac\camera\0.6.10\res\xml\cwac_camera_profile_motorola_xt910_rtanz.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_motorola_xt910_rtanz.xml"
                 qualifiers=""
                 type="xml" />
             <file
                 name="cwac_camera_profile_samsung_corsicadd"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\build\intermediates\exploded-aar\com.commonsware.cwac\camera\0.6.10\res\xml\cwac_camera_profile_samsung_corsicadd.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_corsicadd.xml"
                 qualifiers=""
                 type="xml" />
             <file
                 name="cwac_camera_profile_samsung_d2att"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\build\intermediates\exploded-aar\com.commonsware.cwac\camera\0.6.10\res\xml\cwac_camera_profile_samsung_d2att.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_d2att.xml"
                 qualifiers=""
                 type="xml" />
             <file
                 name="cwac_camera_profile_samsung_d2spr"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\build\intermediates\exploded-aar\com.commonsware.cwac\camera\0.6.10\res\xml\cwac_camera_profile_samsung_d2spr.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_d2spr.xml"
                 qualifiers=""
                 type="xml" />
             <file
                 name="cwac_camera_profile_samsung_d2tmo"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\build\intermediates\exploded-aar\com.commonsware.cwac\camera\0.6.10\res\xml\cwac_camera_profile_samsung_d2tmo.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_d2tmo.xml"
                 qualifiers=""
                 type="xml" />
             <file
                 name="cwac_camera_profile_samsung_d2uc"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\build\intermediates\exploded-aar\com.commonsware.cwac\camera\0.6.10\res\xml\cwac_camera_profile_samsung_d2uc.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_d2uc.xml"
                 qualifiers=""
                 type="xml" />
             <file
                 name="cwac_camera_profile_samsung_d2vzw"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\build\intermediates\exploded-aar\com.commonsware.cwac\camera\0.6.10\res\xml\cwac_camera_profile_samsung_d2vzw.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_d2vzw.xml"
                 qualifiers=""
                 type="xml" />
             <file
                 name="cwac_camera_profile_samsung_gd1wifiue"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\build\intermediates\exploded-aar\com.commonsware.cwac\camera\0.6.10\res\xml\cwac_camera_profile_samsung_gd1wifiue.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_gd1wifiue.xml"
                 qualifiers=""
                 type="xml" />
             <file
                 name="cwac_camera_profile_samsung_ja3gxx"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\build\intermediates\exploded-aar\com.commonsware.cwac\camera\0.6.10\res\xml\cwac_camera_profile_samsung_ja3gxx.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_ja3gxx.xml"
                 qualifiers=""
                 type="xml" />
             <file
                 name="cwac_camera_profile_samsung_jflteuc"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\build\intermediates\exploded-aar\com.commonsware.cwac\camera\0.6.10\res\xml\cwac_camera_profile_samsung_jflteuc.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_jflteuc.xml"
                 qualifiers=""
                 type="xml" />
             <file
                 name="cwac_camera_profile_samsung_kyleproxx"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\build\intermediates\exploded-aar\com.commonsware.cwac\camera\0.6.10\res\xml\cwac_camera_profile_samsung_kyleproxx.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_kyleproxx.xml"
                 qualifiers=""
                 type="xml" />
             <file
                 name="cwac_camera_profile_samsung_nevispxx"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\build\intermediates\exploded-aar\com.commonsware.cwac\camera\0.6.10\res\xml\cwac_camera_profile_samsung_nevispxx.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_nevispxx.xml"
                 qualifiers=""
                 type="xml" />
             <file
                 name="cwac_camera_profile_samsung_yakju"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\build\intermediates\exploded-aar\com.commonsware.cwac\camera\0.6.10\res\xml\cwac_camera_profile_samsung_yakju.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_yakju.xml"
                 qualifiers=""
                 type="xml" />
         </source>
     </dataSet>
     <dataSet config="main" >
-        <source path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\res" >
+        <source path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res" >
             <file
                 name="ic_launcher"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\res\drawable-hdpi\ic_launcher.png"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_menu_av_stop"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\res\drawable-hdpi\ic_menu_av_stop.png"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/drawable-hdpi/ic_menu_av_stop.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_menu_device_access_video"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\res\drawable-hdpi\ic_menu_device_access_video.png"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/drawable-hdpi/ic_menu_device_access_video.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\res\drawable-ldpi\ic_launcher.png"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/drawable-ldpi/ic_launcher.png"
                 qualifiers="ldpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\res\drawable-mdpi\ic_launcher.png"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\res\drawable-xhdpi\ic_launcher.png"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="activity_main"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\res\layout\activity_main.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/layout/activity_main.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="fragment"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\res\layout\fragment.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/layout/fragment.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="full_screen"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\res\layout\full_screen.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/layout/full_screen.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="fragment"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\res\layout-land\fragment.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/layout-land/fragment.xml"
                 qualifiers="land"
                 type="layout" />
             <file
                 name="camera"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\res\menu\camera.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/menu/camera.xml"
                 qualifiers=""
                 type="menu" />
             <file
                 name="main"
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\res\menu\main.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/menu/main.xml"
                 qualifiers=""
                 type="menu" />
             <file
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\res\values\arrays.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/values/arrays.xml"
                 qualifiers="" >
                 <string-array name="nav" >
                     <item>
@@ -155,7 +155,7 @@
                 </string-array>
             </file>
             <file
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\res\values\dimens.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/values/dimens.xml"
                 qualifiers="" >
                 <dimen name="activity_horizontal_margin" >16dp
                 </dimen>
@@ -163,7 +163,7 @@
                 </dimen>
             </file>
             <file
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\res\values\strings.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/values/strings.xml"
                 qualifiers="" >
                 <string name="take_picture" >Take Picture
                 </string>
@@ -197,7 +197,7 @@
                 </string>
             </file>
             <file
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\res\values\styles.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/values/styles.xml"
                 qualifiers="" >
 
                 <style
@@ -219,13 +219,13 @@
                 </style>
             </file>
             <file
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\res\values-sw720dp-land\dimens.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/values-sw720dp-land/dimens.xml"
                 qualifiers="sw720dp-land-v13" >
                 <dimen name="activity_horizontal_margin" >128dp
                 </dimen>
             </file>
             <file
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\res\values-v11\styles.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/values-v11/styles.xml"
                 qualifiers="v11" >
 
                 <style
@@ -236,7 +236,7 @@
                 </style>
             </file>
             <file
-                path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\res\values-v14\styles.xml"
+                path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/values-v14/styles.xml"
                 qualifiers="v14" >
 
                 <style
@@ -247,11 +247,11 @@
                 </style>
             </file>
         </source>
-        <source path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\build\generated\res\rs\debug" />
-        <source path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\build\generated\res\generated\debug" />
+        <source path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build/generated/res/rs/debug" />
+        <source path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build/generated/res/generated/debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="C:\Users\Sarah\Documents\GitHub\Virtual-Lens\demo\build-types\debug\res" />
+        <source path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build-types/debug/res" />
     </dataSet>
 
 </merger>

@@ -15,20 +15,27 @@
 package com.commonsware.cwac.camera.demo;
 
 import android.annotation.TargetApi;
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
+import android.graphics.Point;
+import android.graphics.Rect;
 import android.hardware.Camera;
 import android.hardware.Camera.Face;
 import android.hardware.Camera.Parameters;
 import android.os.Bundle;
 import android.os.SystemClock;
+import android.util.DisplayMetrics;
 import android.util.Log;
+import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.Toast;
@@ -38,6 +45,9 @@ import com.commonsware.cwac.camera.CameraUtils;
 import com.commonsware.cwac.camera.SimpleCameraHost;
 import com.commonsware.cwac.camera.PictureTransaction;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class DemoCameraFragment extends CameraFragment implements
     OnSeekBarChangeListener {
   private static final String KEY_USE_FFC=
@@ -45,6 +55,7 @@ public class DemoCameraFragment extends CameraFragment implements
   private MenuItem singleShotItem=null;
   private MenuItem autoFocusItem=null;
   private MenuItem takePictureItem=null;
+  private MenuItem groundHeightItem=null;
   //private MenuItem flashItem=null;
   private MenuItem recordItem=null;
   private MenuItem stopRecordItem=null;
@@ -53,6 +64,7 @@ public class DemoCameraFragment extends CameraFragment implements
   private SeekBar zoom=null;
   private long lastFaceToast=0L;
   String flashMode=null;
+  int faceheight;
 
   static DemoCameraFragment newInstance(boolean useFFC) {
     DemoCameraFragment f=new DemoCameraFragment();
@@ -111,6 +123,7 @@ public class DemoCameraFragment extends CameraFragment implements
    // flashItem=menu.findItem(R.id.flash);
     recordItem=menu.findItem(R.id.record);
     stopRecordItem=menu.findItem(R.id.stop);
+    groundHeightItem=menu.findItem(R.id.ground_height);
    // mirrorFFC=menu.findItem(R.id.mirror_ffc);
 
     if (isRecording()) {
@@ -251,7 +264,6 @@ public class DemoCameraFragment extends CameraFragment implements
   class DemoCameraHost extends SimpleCameraHost implements
       Camera.FaceDetectionListener {
     boolean supportsFaces=false;
-
     public DemoCameraHost(Context _ctxt) {
       super(_ctxt);
     }
@@ -354,6 +366,18 @@ public class DemoCameraFragment extends CameraFragment implements
     @Override
     public void onFaceDetection(Face[] faces, Camera camera) {
       if (faces.length > 0) {
+          List<Rect> faceRects;
+          faceRects = new ArrayList<Rect>();
+
+          for (int i=0; i<faces.length; i++) {
+              int left = faces[i].rect.left;
+              int right = faces[i].rect.right;
+              int top = faces[i].rect.top;
+              int bottom = faces[i].rect.bottom;
+              Rect uRect = new Rect(left, top, right, bottom);
+              faceRects.add(uRect);
+            faceheight=bottom-top;
+          }
         long now=SystemClock.elapsedRealtime();
 
         if (now > lastFaceToast + 10000) {
@@ -367,9 +391,18 @@ public class DemoCameraFragment extends CameraFragment implements
     @Override
     @TargetApi(16)
     public void onAutoFocus(boolean success, Camera camera) {
-      super.onAutoFocus(success, camera);
-
-      takePictureItem.setEnabled(true);
+        if (success){takePictureItem.setEnabled(true);}
+        //camera.getParameters().setFocusMode(Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE);
+        DisplayMetrics metrics = Resources.getSystem().getDisplayMetrics();
+        int imgH = metrics.heightPixels;
+        int imgFaceH=faceheight;
+        int sensorH=600;
+        int faceH=200;
+        float focalL = camera.getParameters().getFocalLength();
+        //object height/object image height = face height/face image height
+        float distance = focalL*faceH*imgH/(imgFaceH*sensorH); //we need to set calibration
+        Toast.makeText(getActivity(), ""+distance,
+                Toast.LENGTH_LONG).show();
     }
     
   //  @Override

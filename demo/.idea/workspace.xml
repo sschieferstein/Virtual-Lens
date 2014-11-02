@@ -19,6 +19,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.commonsware.cwac.camera.demo" />
   </component>
   <component name="ChangeListManager">
@@ -44,21 +45,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< Updated upstream
       <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
               <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+=======
+      <file leaf-file-name="DemoCameraFragment.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/commonsware/cwac/camera/demo/DemoCameraFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.3015873" vertical-offset="4743" max-vertical-offset="5340">
+              <caret line="409" column="1" selection-start-line="409" selection-start-column="1" selection-end-line="409" selection-end-column="1" />
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="activity_main.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
           <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+      <file leaf-file-name="VerticalSeekBar.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/commonsware/cwac/camera/demo/VerticalSeekBar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1635">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/commonsware/cwac/camera/demo/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="3045">
+              <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FullScreenActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/commonsware/cwac/camera/demo/FullScreenActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="795">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
@@ -513,7 +550,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1413625991700" />
+        <entry key="$PROJECT_DIR$" value="1414248092000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -541,86 +578,48 @@
               <option name="name" value="demo" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/announce" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/antlr" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/base-services" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/base-services-groovy" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/build-comparison" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/build-init" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/cli" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/code-quality" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/core" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/core-impl" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/cpp" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/diagnostics" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/ear" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/ide" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/internal-integ-testing" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/internal-testing" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/ivy" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/jacoco" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/javascript" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/jetty" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/language-base" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/language-jvm" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/launcher" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/maven" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/messaging" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/native" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/open-api" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/osgi" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/plugins" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/publish" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/reporting" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/resources" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/scala" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/signing" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/sonar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/tooling-api" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/ui" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/src/wrapper" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/ant-1.9.3.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/ant-launcher-1.9.3.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/gradle-base-services-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/gradle-base-services-groovy-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/gradle-cli-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/gradle-core-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/gradle-docs-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/gradle-launcher-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/gradle-messaging-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/gradle-native-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/gradle-open-api-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/gradle-resources-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/gradle-tooling-api-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/gradle-ui-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/gradle-wrapper-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/groovy-all-1.8.6.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/ivy-2.2.0.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/ant-antlr-1.9.3.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-announce-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-antlr-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-build-comparison-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-build-init-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-code-quality-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-core-impl-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-cpp-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-diagnostics-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-ear-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-ide-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-ivy-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-jacoco-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-javascript-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-jetty-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-language-base-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-language-jvm-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-maven-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-osgi-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-plugins-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-publish-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-reporting-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-scala-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-signing-1.12.jar" />
-                  <option value="$USER_HOME$/Downloads/gradle-1.12-all/gradle-1.12/lib/plugins/gradle-sonar-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/ant-1.9.3.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/ant-launcher-1.9.3.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/gradle-base-services-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/gradle-base-services-groovy-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/gradle-cli-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/gradle-core-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/gradle-docs-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/gradle-launcher-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/gradle-messaging-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/gradle-native-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/gradle-open-api-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/gradle-resources-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/gradle-tooling-api-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/gradle-ui-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/gradle-wrapper-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/groovy-all-1.8.6.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/ant-antlr-1.9.3.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-announce-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-antlr-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-build-comparison-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-build-init-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-code-quality-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-core-impl-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-cpp-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-diagnostics-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-ear-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-ide-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-ivy-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-jacoco-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-javascript-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-jetty-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-language-base-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-language-jvm-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-maven-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-osgi-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-plugins-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-publish-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-reporting-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-scala-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-signing-1.12.jar" />
+                  <option value="$PROJECT_DIR$/../../gradle-1.12/lib/plugins/gradle-sonar-1.12.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -635,14 +634,23 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/com/commonsware/cwac/camera/demo/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/commonsware/cwac/camera/demo/FullScreenActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/commonsware/cwac/camera/demo/DemoCameraFragment.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< Updated upstream
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1384" />
     <option name="height" value="738" />
+=======
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="720" />
+>>>>>>> Stashed changes
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -670,7 +678,11 @@
       <sortByType />
     </navigator>
     <panes>
+<<<<<<< Updated upstream
       <pane id="AndroidView" />
+=======
+      <pane id="PackagesPane" />
+>>>>>>> Stashed changes
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -699,6 +711,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< Updated upstream
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -782,12 +795,23 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bin" />
+=======
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+>>>>>>> Stashed changes
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+<<<<<<< Updated upstream
       <pane id="PackagesPane" />
+=======
+      <pane id="AndroidView" />
+>>>>>>> Stashed changes
       <pane id="Scope" />
     </panes>
   </component>
@@ -798,14 +822,23 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="editor.preferences.import" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="woo" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="03152f36093b016b" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="4.4" />
     <property name="FullScreen" value="false" />
+<<<<<<< Updated upstream
     <property name="restartRequiresConfirmation" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+=======
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+>>>>>>> Stashed changes
   </component>
   <component name="RunManager" selected="Android Application.demo">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -837,19 +870,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -875,6 +895,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -977,7 +1010,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="-9" y="-9" width="1384" height="738" extended-state="6" />
+=======
+    <frame x="0" y="23" width="1280" height="720" extended-state="6" />
+>>>>>>> Stashed changes
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -986,26 +1023,40 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32781458" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+<<<<<<< Updated upstream
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32781458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< Updated upstream
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+<<<<<<< Updated upstream
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1029,6 +1080,61 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/commonsware/cwac/camera/demo/DemoCameraFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5355" max-vertical-offset="5460">
+          <caret line="409" column="1" selection-start-line="409" selection-start-column="1" selection-end-line="409" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/commonsware/cwac/camera/demo/VerticalSeekBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1635">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/commonsware/cwac/camera/demo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="3045">
+          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/commonsware/cwac/camera/demo/FullScreenActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="795">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/commonsware/cwac/camera/demo/DisplayActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/commonsware/cwac/camera/demo/DemoCameraFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5475" max-vertical-offset="5730">
+          <caret line="375" column="37" selection-start-line="375" selection-start-column="37" selection-end-line="375" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="690">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
@@ -1083,16 +1189,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+=======
+        <state vertical-scroll-proportion="0.5729443" vertical-offset="114" max-vertical-offset="690">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/commonsware/cwac/camera/demo/DisplayActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3633952" vertical-offset="178" max-vertical-offset="615">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/commonsware/cwac/camera/demo/VerticalSeekBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1108" max-vertical-offset="1485">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/commonsware/cwac/camera/demo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="3045">
+          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/commonsware/cwac/camera/demo/FullScreenActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/commonsware/cwac/camera/demo/DemoCameraFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3015873" vertical-offset="4743" max-vertical-offset="5340">
+          <caret line="409" column="1" selection-start-line="409" selection-start-column="1" selection-end-line="409" selection-end-column="1" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
