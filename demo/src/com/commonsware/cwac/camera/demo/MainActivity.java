@@ -141,7 +141,7 @@ public class MainActivity extends Activity implements
 
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
-    if (item.getItemId() == R.id.content) {
+   /* if (item.getItemId() == R.id.content) {
       Intent i=new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
       File dir=
           Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM);
@@ -151,7 +151,7 @@ public class MainActivity extends Activity implements
 
       startActivityForResult(i, CONTENT_REQUEST);
     }
-    else if (item.getItemId() == R.id.landscape) {
+    else*/ if (item.getItemId() == R.id.landscape) {
       item.setChecked(!item.isChecked());
       current.lockToLandscape(item.isChecked());
       isLockedToLandscape=item.isChecked();

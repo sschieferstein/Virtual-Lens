@@ -117,13 +117,13 @@ public class DemoCameraFragment extends CameraFragment implements
     inflater.inflate(R.menu.camera, menu);
 
     takePictureItem=menu.findItem(R.id.camera);
-    singleShotItem=menu.findItem(R.id.single_shot);
-    singleShotItem.setChecked(getContract().isSingleShotMode());
+    //singleShotItem=menu.findItem(R.id.single_shot);
+//    singleShotItem.setChecked(getContract().isSingleShotMode());
     autoFocusItem=menu.findItem(R.id.autofocus);
    // flashItem=menu.findItem(R.id.flash);
-    recordItem=menu.findItem(R.id.record);
-    stopRecordItem=menu.findItem(R.id.stop);
-    groundHeightItem=menu.findItem(R.id.ground_height);
+    //recordItem=menu.findItem(R.id.record);
+    //stopRecordItem=menu.findItem(R.id.stop);
+    //groundHeightItem=menu.findItem(R.id.ground_height);
    // mirrorFFC=menu.findItem(R.id.mirror_ffc);
 
     if (isRecording()) {
@@ -143,7 +143,7 @@ public class DemoCameraFragment extends CameraFragment implements
 
         return(true);
 
-      case R.id.record:
+      /*case R.id.record:
         try {
           record();
           getActivity().invalidateOptionsMenu();
@@ -170,13 +170,13 @@ public class DemoCameraFragment extends CameraFragment implements
         }
 
         return(true);
-
+*/
       case R.id.autofocus:
         takePictureItem.setEnabled(false);
         autoFocus();
 
         return(true);
-
+/*
       case R.id.single_shot:
         item.setChecked(!item.isChecked());
         getContract().setSingleShotMode(item.isChecked());
@@ -189,7 +189,7 @@ public class DemoCameraFragment extends CameraFragment implements
 
         return(true);
 
-    /*  case R.id.flash:
+      case R.id.flash:
       case R.id.mirror_ffc:
         item.setChecked(!item.isChecked());
 
