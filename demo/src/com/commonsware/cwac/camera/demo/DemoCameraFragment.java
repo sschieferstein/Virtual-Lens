@@ -65,6 +65,7 @@ public class DemoCameraFragment extends CameraFragment implements
   private long lastFaceToast=0L;
   String flashMode=null;
   int faceheight;
+  int sensorH;
 
   static DemoCameraFragment newInstance(boolean useFFC) {
     DemoCameraFragment f=new DemoCameraFragment();
@@ -119,7 +120,7 @@ public class DemoCameraFragment extends CameraFragment implements
     takePictureItem=menu.findItem(R.id.camera);
     //singleShotItem=menu.findItem(R.id.single_shot);
 //    singleShotItem.setChecked(getContract().isSingleShotMode());
-    autoFocusItem=menu.findItem(R.id.autofocus);
+    autoFocusItem=menu.findItem(R.id.standing);
    // flashItem=menu.findItem(R.id.flash);
     //recordItem=menu.findItem(R.id.record);
     //stopRecordItem=menu.findItem(R.id.stop);
@@ -171,7 +172,7 @@ public class DemoCameraFragment extends CameraFragment implements
 
         return(true);
 */
-      case R.id.autofocus:
+      case R.id.standing:
         autoFocus();
 
         return(true);
@@ -305,25 +306,25 @@ public class DemoCameraFragment extends CameraFragment implements
       }
     }
 
-    @Override
-    public void autoFocusAvailable() {
-      if (autoFocusItem != null) {
-        autoFocusItem.setEnabled(true);
-        
-        if (supportsFaces)
-          startFaceDetection();
-      }
-    }
-
-    @Override
-    public void autoFocusUnavailable() {
-      if (autoFocusItem != null) {
-        stopFaceDetection();
-        
-        if (supportsFaces)
-          autoFocusItem.setEnabled(false);
-      }
-    }
+//    @Override
+//    public void autoFocusAvailable() {
+//      if (autoFocusItem != null) {
+//        autoFocusItem.setEnabled(true);
+//
+//        if (supportsFaces)
+//          startFaceDetection();
+//      }
+//    }
+//
+//    @Override
+//    public void autoFocusUnavailable() {
+//      if (autoFocusItem != null) {
+//        stopFaceDetection();
+//
+//        if (supportsFaces)
+//          autoFocusItem.setEnabled(false);
+//      }
+//    }
 
     @Override
     public void onCameraFail(CameraHost.FailureReason reason) {
@@ -385,12 +386,11 @@ public class DemoCameraFragment extends CameraFragment implements
     @Override
     @TargetApi(16)
     public void onAutoFocus(boolean success, Camera camera) {
-//        if (success){takePictureItem.setEnabled(true);}
+        //if (success){takePictureItem.setEnabled(true);}
         //camera.getParameters().setFocusMode(Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE);
         DisplayMetrics metrics = Resources.getSystem().getDisplayMetrics();
         int imgH = metrics.heightPixels;
         int imgFaceH=faceheight;
-        int sensorH=600;
         int faceH=200;
         float focalL = camera.getParameters().getFocalLength();
         //object height/object image height = face height/face image height

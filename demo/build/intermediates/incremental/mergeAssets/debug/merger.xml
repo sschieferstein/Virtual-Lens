@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merger version="2" >
 
+    <dataSet config="0.6.10" >
+        <source path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/assets" />
+    </dataSet>
     <dataSet config="main" >
         <source path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/assets" />
     </dataSet>

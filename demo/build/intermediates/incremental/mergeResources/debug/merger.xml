@@ -193,6 +193,8 @@
                 </string>
                 <string name="lock_to_landscape" >Lock to Landscape
                 </string>
+                <string name="standing" >Standing?
+                </string>
                 <string name="single_shot_mode" >Single-Shot Mode
                 </string>
                 <string name="show_zoom" >Show Zoom
