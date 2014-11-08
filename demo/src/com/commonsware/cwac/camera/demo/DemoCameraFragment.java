@@ -172,7 +172,6 @@ public class DemoCameraFragment extends CameraFragment implements
         return(true);
 */
       case R.id.autofocus:
-        takePictureItem.setEnabled(false);
         autoFocus();
 
         return(true);
@@ -379,19 +378,14 @@ public class DemoCameraFragment extends CameraFragment implements
             faceheight=bottom-top;
           }
         long now=SystemClock.elapsedRealtime();
-
-        if (now > lastFaceToast + 10000) {
-          Toast.makeText(getActivity(), "You are so hooooot!",
-                         Toast.LENGTH_LONG).show();
-          lastFaceToast=now;
-        }
       }
+        autoFocus();
     }
 
     @Override
     @TargetApi(16)
     public void onAutoFocus(boolean success, Camera camera) {
-        if (success){takePictureItem.setEnabled(true);}
+//        if (success){takePictureItem.setEnabled(true);}
         //camera.getParameters().setFocusMode(Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE);
         DisplayMetrics metrics = Resources.getSystem().getDisplayMetrics();
         int imgH = metrics.heightPixels;
@@ -401,13 +395,7 @@ public class DemoCameraFragment extends CameraFragment implements
         float focalL = camera.getParameters().getFocalLength();
         //object height/object image height = face height/face image height
         float distance = focalL*faceH*imgH/(imgFaceH*sensorH); //we need to set calibration
-        Toast.makeText(getActivity(), ""+distance,
-                Toast.LENGTH_LONG).show();
+        System.out.println(distance);
     }
-    
-  //  @Override
- /*   public boolean mirrorFFC() {
-      return(mirrorFFC.isChecked());
-    }*/
   }
 }

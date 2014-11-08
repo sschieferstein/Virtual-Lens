@@ -19,12 +19,13 @@
 		android:title="@string/stop"
 		android:visible="false">
 	</item>-->
-	<item
-		android:id="@+id/autofocus"
-		android:enabled="true"
-		android:showAsAction="never"
-		android:title="@string/auto_focus">
-	</item><!--
+	<!--<item-->
+		<!--android:id="@+id/autofocus"-->
+		<!--android:enabled="true"-->
+		<!--android:showAsAction="never"-->
+		<!--android:title="@string/auto_focus">-->
+	<!--</item>-->
+    <!--
 	<item
 		android:id="@+id/single_shot"
 		android:checkable="true"
