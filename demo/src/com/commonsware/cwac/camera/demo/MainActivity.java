@@ -159,9 +159,7 @@ public class MainActivity extends Activity implements
     else if (item.getItemId() == R.id.fullscreen) {
       startActivity(new Intent(this, FullScreenActivity.class));
     }
-      else if (item.getItemId() == R.id.fullscreen) {
-          startActivity(new Intent(this, FullScreenActivity.class));
-      }
+
     return(super.onOptionsItemSelected(item));
   }
 

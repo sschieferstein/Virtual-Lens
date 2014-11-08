@@ -23,12 +23,12 @@ public final class R {
         public static final int ic_menu_device_access_video=0x7f020002;
     }
     public static final class id {
+        public static final int autofocus=0x7f0a0006;
         public static final int camera=0x7f0a0001;
         public static final int camera_preview=0x7f0a0003;
         public static final int container=0x7f0a0000;
         public static final int fullscreen=0x7f0a0005;
         public static final int landscape=0x7f0a0004;
-        public static final int standing=0x7f0a0006;
         public static final int zoom=0x7f0a0002;
     }
     public static final class layout {
@@ -55,9 +55,8 @@ public final class R {
         public static final int show_zoom=0x7f07000b;
         public static final int single_shot_mode=0x7f07000c;
         public static final int standard=0x7f07000d;
-        public static final int standing=0x7f07000e;
-        public static final int stop=0x7f07000f;
-        public static final int take_picture=0x7f070010;
+        public static final int stop=0x7f07000e;
+        public static final int take_picture=0x7f07000f;
     }
     public static final class style {
         /** 

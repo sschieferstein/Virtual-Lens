@@ -20,11 +20,10 @@
     android:title="@string/launch_full_screen">
   </item>
     <item
-        android:id="@+id/standing"
-        android:checkable="true"
-        android:checked="false"
+        android:id="@+id/autofocus"
+        android:enabled="true"
         android:showAsAction="never"
-        android:title="@string/standing">
+        android:title="@string/auto_focus">
     </item>
 	
 </menu><!-- From: file:/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/menu/main.xml -->

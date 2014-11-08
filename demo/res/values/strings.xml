@@ -10,7 +10,6 @@
 	<string name="launch_camera_app">Launch Camera App</string>
 	<string name="take_picture">Take Picture</string>
 	<string name="auto_focus">Auto-focus</string>
-    <string name="standing">Standing?</string>
 	<string name="single_shot_mode">Single-Shot Mode</string>
 	<string name="no_image">There was no image to show!</string>
 	<string name="show_zoom">Show Zoom</string>
