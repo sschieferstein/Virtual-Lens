@@ -2,13 +2,13 @@
 <merger version="2" >
 
     <dataSet config="0.6.10" >
-        <source path="C:\Users\X30\Documents\GitHub\Virtual-Lens\demo\build\intermediates\exploded-aar\com.commonsware.cwac\camera\0.6.10\assets" />
+        <source path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/assets" />
     </dataSet>
     <dataSet config="main" >
-        <source path="C:\Users\X30\Documents\GitHub\Virtual-Lens\demo\assets" />
+        <source path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="C:\Users\X30\Documents\GitHub\Virtual-Lens\demo\build-types\debug\assets" />
+        <source path="/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/build-types/debug/assets" />
     </dataSet>
 
 </merger>
