@@ -10,6 +10,7 @@ int id camera_preview 0x7f0a0003
 int id container 0x7f0a0000
 int id fullscreen 0x7f0a0005
 int id landscape 0x7f0a0004
+int id stand 0x7f0a0007
 int id zoom 0x7f0a0002
 int layout activity_main 0x7f030000
 int layout fragment 0x7f030001
@@ -29,9 +30,10 @@ int string no_image 0x7f070009
 int string record 0x7f07000a
 int string show_zoom 0x7f07000b
 int string single_shot_mode 0x7f07000c
-int string standard 0x7f07000d
-int string stop 0x7f07000e
-int string take_picture 0x7f07000f
+int string stand 0x7f07000d
+int string standard 0x7f07000e
+int string stop 0x7f07000f
+int string take_picture 0x7f070010
 int style AppBaseTheme 0x7f080000
 int style AppTheme 0x7f080001
 int xml cwac_camera_profile_htc_htc_mecha 0x7f040000

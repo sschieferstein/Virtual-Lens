@@ -61,6 +61,7 @@ public class DemoCameraFragment extends CameraFragment implements
   private MenuItem stopRecordItem=null;
  // private MenuItem mirrorFFC=null;
   private boolean singleShotProcessing=false;
+  private MenuItem standing=null;
   private SeekBar zoom=null;
   private long lastFaceToast=0L;
   String flashMode=null;
@@ -125,6 +126,7 @@ public class DemoCameraFragment extends CameraFragment implements
     //stopRecordItem=menu.findItem(R.id.stop);
     //groundHeightItem=menu.findItem(R.id.ground_height);
    // mirrorFFC=menu.findItem(R.id.mirror_ffc);
+      standing=menu.findItem(R.id.stand);
 
     if (isRecording()) {
       recordItem.setVisible(false);
@@ -171,6 +173,11 @@ public class DemoCameraFragment extends CameraFragment implements
 
         return(true);
 */
+        case R.id.stand:
+            item.setChecked(!item.isChecked());
+            return(true);
+
+
       case R.id.autofocus:
         autoFocus();
 
@@ -390,12 +397,15 @@ public class DemoCameraFragment extends CameraFragment implements
         DisplayMetrics metrics = Resources.getSystem().getDisplayMetrics();
         int imgH = metrics.heightPixels;
         int imgFaceH=faceheight;
-        int sensorH=600;
+        int sensorH;
+        if(standing.isChecked())
+         sensorH=1600;
+        else sensorH=1000;
         int faceH=200;
         float focalL = camera.getParameters().getFocalLength();
         //object height/object image height = face height/face image height
         float distance = focalL*faceH*imgH/(imgFaceH*sensorH); //we need to set calibration
-        System.out.println(distance);
+        System.out.println("distance: "+distance+" image face height:" +imgFaceH+" matrix height: "+imgH+" sensorH: "+sensorH+" focalLength: "+focalL);
     }
   }
 }

@@ -25,5 +25,11 @@
         android:showAsAction="never"
         android:title="@string/auto_focus">
     </item>
+    <item
+        android:id="@+id/stand"
+        android:checkable="true"
+        android:checked="false"
+        android:title="@string/stand">
+    </item>
 	
-</menu><!-- From: file:/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/menu/main.xml -->
+</menu><!-- From: file:/C:/Users/X30/Documents/GitHub/Virtual-Lens/demo/res/menu/main.xml -->

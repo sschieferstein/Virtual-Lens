@@ -29,6 +29,7 @@ public final class R {
         public static final int container=0x7f0a0000;
         public static final int fullscreen=0x7f0a0005;
         public static final int landscape=0x7f0a0004;
+        public static final int stand=0x7f0a0007;
         public static final int zoom=0x7f0a0002;
     }
     public static final class layout {
@@ -54,9 +55,10 @@ public final class R {
         public static final int record=0x7f07000a;
         public static final int show_zoom=0x7f07000b;
         public static final int single_shot_mode=0x7f07000c;
-        public static final int standard=0x7f07000d;
-        public static final int stop=0x7f07000e;
-        public static final int take_picture=0x7f07000f;
+        public static final int stand=0x7f07000d;
+        public static final int standard=0x7f07000e;
+        public static final int stop=0x7f07000f;
+        public static final int take_picture=0x7f070010;
     }
     public static final class style {
         /** 
