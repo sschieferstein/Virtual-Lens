@@ -399,7 +399,9 @@ public class DemoCameraFragment extends CameraFragment implements
         float distance = focalL*faceH*imgH/(imgFaceH*sensorH); //we need to set calibration
         System.out.println(distance);
 
-        zoomTo((int)(4*distance)).go();
+        for(int i=0;i<(int)(distance*7);i++) {
+            zoomTo(i).go();
+        }
     }
   }
 }
