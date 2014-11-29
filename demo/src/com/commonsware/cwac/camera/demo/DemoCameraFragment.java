@@ -370,18 +370,31 @@ public class DemoCameraFragment extends CameraFragment implements
           List<Rect> faceRects;
           faceRects = new ArrayList<Rect>();
 
-          for (int i=0; i<faces.length; i++) {
+          for (int i = 0; i < faces.length; i++) {
               int left = faces[i].rect.left;
               int right = faces[i].rect.right;
               int top = faces[i].rect.top;
               int bottom = faces[i].rect.bottom;
               Rect uRect = new Rect(left, top, right, bottom);
               faceRects.add(uRect);
-            faceheight=bottom-top;
+              faceheight = bottom - top;
           }
-        long now=SystemClock.elapsedRealtime();
+          long now = SystemClock.elapsedRealtime();
+
+
+          int imgH = Resources.getSystem().getDisplayMetrics().heightPixels;
+          int imgFaceH = faceheight;
+          int sensorH = 600;
+          int faceH = 200;
+          float focalL = camera.getParameters().getFocalLength();
+          //object height/object image height = face height/face image height
+          float distance = focalL * faceH * imgH / (imgFaceH * sensorH); //we need to set calibration
+          System.out.println(distance);
+
+
+          zoomTo((int)(distance*10)).go();
+
       }
-        autoFocus();
     }
 
     @Override
@@ -390,18 +403,7 @@ public class DemoCameraFragment extends CameraFragment implements
 //        if (success){takePictureItem.setEnabled(true);}
         //camera.getParameters().setFocusMode(Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE);
         DisplayMetrics metrics = Resources.getSystem().getDisplayMetrics();
-        int imgH = metrics.heightPixels;
-        int imgFaceH=faceheight;
-        int sensorH=600;
-        int faceH=200;
-        float focalL = camera.getParameters().getFocalLength();
-        //object height/object image height = face height/face image height
-        float distance = focalL*faceH*imgH/(imgFaceH*sensorH); //we need to set calibration
-        System.out.println(distance);
 
-        for(int i=0;i<(int)(distance*7);i++) {
-            zoomTo(i).go();
-        }
     }
   }
 }

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/values/arrays.xml -->
+    <!-- From: file:/C:/Users/Sarah/Documents/GitHub/Virtual-Lens/demo/res/values/arrays.xml -->
     <eat-comment />
 
     <string-array name="nav">
         <item>@string/standard</item>
         <item>@string/ffc</item>
     </string-array>
-    <!-- From: file:/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Sarah/Documents/GitHub/Virtual-Lens/demo/res/values/dimens.xml -->
     <eat-comment />
 
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Sarah/Documents/GitHub/Virtual-Lens/demo/res/values/strings.xml -->
     <eat-comment />
 
     <string name="app_name">CWAC-Camera Demo</string>
@@ -33,7 +33,7 @@
     <string name="standard">Standard</string>
     <string name="stop">Stop</string>
     <string name="take_picture">Take Picture</string>
-    <!-- From: file:/Users/bernard/AndroidStudioProjects/Virtual-Lens/demo/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Sarah/Documents/GitHub/Virtual-Lens/demo/res/values/styles.xml -->
     <eat-comment />
 
     <style name="AppBaseTheme" parent="android:Theme.Light">
