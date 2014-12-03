@@ -402,35 +402,11 @@ public class DemoCameraFragment extends CameraFragment implements
           System.out.println(sensorH);
 
           if(distance<10)
-          zoomTo((int)(distance*10)).go();
+          zoomTo((int)(distance*5)).go();
 
       }
 //        else faceheight=1;
 //        autoFocus();
-    }
-
-    @Override
-    @TargetApi(16)
-    public void onAutoFocus(boolean success, Camera camera) {
-//        if (success){takePictureItem.setEnabled(true);}
-        //camera.getParameters().setFocusMode(Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE);
-        DisplayMetrics metrics = Resources.getSystem().getDisplayMetrics();
-
-        int imgH = metrics.heightPixels;
-        int imgFaceH=faceheight;
-        if(standing.isChecked())
-            sensorH=1600;
-        else sensorH=1000;
-        int faceH=200;
-        float focalL = camera.getParameters().getFocalLength();
-        //object height/object image height = face height/face image height
-        float distance = focalL*faceH*imgH/(imgFaceH*sensorH); //we need to set calibration
-        System.out.println(distance);
-
-        for(int i=0;i<(int)(distance*2);i++) {
-            if(i<100)
-                zoomTo(i).go();
-        }
     }
   }
 }
