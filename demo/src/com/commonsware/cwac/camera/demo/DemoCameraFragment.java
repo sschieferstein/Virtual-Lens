@@ -206,15 +206,15 @@ public class DemoCameraFragment extends CameraFragment implements
   @Override
   public void onProgressChanged(SeekBar seekBar, int progress,
                                 boolean fromUser) {
-    if (fromUser) {
-      zoom.setEnabled(false);
-      zoomTo(zoom.getProgress()).onComplete(new Runnable() {
-        @Override
-        public void run() {
-          zoom.setEnabled(true);
-        }
-      }).go();
-    }
+//    if (fromUser) {
+//      zoom.setEnabled(false);
+//      zoomTo(zoom.getProgress()).onComplete(new Runnable() {
+//        @Override
+//        public void run() {
+//          zoom.setEnabled(true);
+//        }
+//      }).go();
+//    }
   }
 
   @Override
@@ -395,6 +395,8 @@ public class DemoCameraFragment extends CameraFragment implements
           zoomTo((int)(distance*10)).go();
 
       }
+        else faceheight=1;
+        autoFocus();
     }
 
     @Override
@@ -404,6 +406,19 @@ public class DemoCameraFragment extends CameraFragment implements
         //camera.getParameters().setFocusMode(Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE);
         DisplayMetrics metrics = Resources.getSystem().getDisplayMetrics();
 
+        int imgH = metrics.heightPixels;
+        int imgFaceH=faceheight;
+        int sensorH=600;
+        int faceH=200;
+        float focalL = camera.getParameters().getFocalLength();
+        //object height/object image height = face height/face image height
+        float distance = focalL*faceH*imgH/(imgFaceH*sensorH); //we need to set calibration
+        System.out.println(distance);
+
+        for(int i=0;i<(int)(distance*2);i++) {
+            if(i<100)
+                zoomTo(i).go();
+        }
     }
   }
 }
