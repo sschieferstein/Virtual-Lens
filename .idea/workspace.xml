@@ -2,8 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8863a622-6db2-4f4c-be8b-f7d1dc18914c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/gen/com/commonsware/cwac/camera/demo/BuildConfig.java" afterPath="$PROJECT_DIR$/demo/gen/com/commonsware/cwac/camera/demo/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/.gradle/1.12/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/demo/.gradle/1.12/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/libs/demo-debug.ap_" afterPath="$PROJECT_DIR$/demo/build/intermediates/libs/demo-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/.gradle/1.12/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/demo/.gradle/1.12/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/.gradle/1.12/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/demo/.gradle/1.12/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/model_data.bin" afterPath="$PROJECT_DIR$/demo/build/intermediates/model_data.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/.gradle/1.12/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/demo/.gradle/1.12/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/AndroidManifest.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/manifests/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/manifests/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/manifests/test/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/manifests/test/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/generated/source/buildConfig/debug/com/commonsware/cwac/camera/demo/BuildConfig.java" afterPath="$PROJECT_DIR$/demo/build/generated/source/buildConfig/debug/com/commonsware/cwac/camera/demo/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/generated/source/buildConfig/test/debug/com/commonsware/cwac/camera/demo/test/BuildConfig.java" afterPath="$PROJECT_DIR$/demo/build/generated/source/buildConfig/test/debug/com/commonsware/cwac/camera/demo/test/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/generated/source/r/debug/com/commonsware/cwac/camera/R.java" afterPath="$PROJECT_DIR$/demo/build/generated/source/r/debug/com/commonsware/cwac/camera/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/R.txt" afterPath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/menu/camera.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/menu/camera.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_htc_htc_mecha.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_htc_htc_mecha.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_htc_htc_mecha.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_htc_htc_mecha.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_htc_m7.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_htc_m7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_htc_m7.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_htc_m7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_motorola_xt910_rtanz.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_motorola_xt910_rtanz.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_motorola_xt910_rtanz.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_motorola_xt910_rtanz.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_corsicadd.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_corsicadd.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_corsicadd.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_corsicadd.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_d2att.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_d2att.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_d2att.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_d2att.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_d2spr.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_d2spr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_d2spr.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_d2spr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_d2tmo.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_d2tmo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_d2tmo.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_d2tmo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_d2uc.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_d2uc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_d2uc.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_d2uc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_d2vzw.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_d2vzw.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_d2vzw.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_d2vzw.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_gd1wifiue.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_gd1wifiue.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_gd1wifiue.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_gd1wifiue.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_ja3gxx.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_ja3gxx.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_ja3gxx.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_ja3gxx.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_jflteuc.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_jflteuc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_jflteuc.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_jflteuc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_kyleproxx.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_kyleproxx.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_kyleproxx.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_kyleproxx.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_nevispxx.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_nevispxx.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_nevispxx.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_nevispxx.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_yakju.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/res/xml/cwac_camera_profile_samsung_yakju.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_yakju.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/xml/cwac_camera_profile_samsung_yakju.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/demo.iml" afterPath="$PROJECT_DIR$/demo/demo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/layout/fragment.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/layout/fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/layout-land/fragment.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/layout-land/fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/layout/full_screen.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/layout/full_screen.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/local.properties" afterPath="$PROJECT_DIR$/demo/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/menu/main.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/menu/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeAssets/test/debug/merger.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeAssets/test/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeResources/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeResources/test/debug/merger.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeResources/test/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/values-sw720dp-land-v13/values.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/values-sw720dp-land-v13/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/values-v11/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/debug/values-v14/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Virtual-Lens.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +88,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24403183" vertical-offset="313" max-vertical-offset="690">
-              <caret line="27" column="45" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.46723646" vertical-offset="431" max-vertical-offset="782">
+              <caret line="35" column="0" selection-start-line="34" selection-start-column="9" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,6 +150,44 @@
               <option name="name" value="Virtual-Lens" />
               <option name="projectBuildClasspath">
                 <list>
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/announce" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/antlr" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/base-services" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/base-services-groovy" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/build-comparison" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/build-init" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/cli" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/code-quality" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/core" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/core-impl" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/cpp" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/diagnostics" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/ear" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/ide" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/internal-integ-testing" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/internal-testing" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/ivy" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/jacoco" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/javascript" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/jetty" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/language-base" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/language-jvm" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/launcher" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/maven" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/messaging" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/native" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/open-api" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/osgi" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/plugins" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/publish" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/reporting" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/resources" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/scala" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/signing" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/sonar" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/tooling-api" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/ui" />
+                  <option value="$PROJECT_DIR$/../gradle-1.12/src/wrapper" />
                   <option value="$PROJECT_DIR$/../gradle-1.12/lib/ant-1.9.3.jar" />
                   <option value="$PROJECT_DIR$/../gradle-1.12/lib/ant-launcher-1.9.3.jar" />
                   <option value="$PROJECT_DIR$/../gradle-1.12/lib/gradle-base-services-1.12.jar" />
@@ -174,9 +271,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -225,6 +319,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,19 +383,6 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -324,6 +408,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -426,7 +523,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="720" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="720" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -435,26 +532,26 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294702" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3280142" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294702" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24918033" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294702" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -478,18 +575,25 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/demo/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="782">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Virtual-Lens.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24403183" vertical-offset="313" max-vertical-offset="690">
-          <caret line="27" column="45" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.46723646" vertical-offset="431" max-vertical-offset="782">
+          <caret line="35" column="0" selection-start-line="34" selection-start-column="9" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -59,12 +59,13 @@ public class DemoCameraFragment extends CameraFragment implements
   //private MenuItem flashItem=null;
   private MenuItem recordItem=null;
   private MenuItem stopRecordItem=null;
+    private MenuItem standing=null;
  // private MenuItem mirrorFFC=null;
   private boolean singleShotProcessing=false;
   private SeekBar zoom=null;
   private long lastFaceToast=0L;
   String flashMode=null;
-  int faceheight;
+  int faceheight; int sensorH;
   int maxZoom;
 
   static DemoCameraFragment newInstance(boolean useFFC) {
@@ -121,6 +122,7 @@ public class DemoCameraFragment extends CameraFragment implements
     //singleShotItem=menu.findItem(R.id.single_shot);
 //    singleShotItem.setChecked(getContract().isSingleShotMode());
     autoFocusItem=menu.findItem(R.id.autofocus);
+      standing=menu.findItem(R.id.stand);
    // flashItem=menu.findItem(R.id.flash);
     //recordItem=menu.findItem(R.id.record);
     //stopRecordItem=menu.findItem(R.id.stop);
@@ -143,6 +145,7 @@ public class DemoCameraFragment extends CameraFragment implements
         takeSimplePicture();
 
         return(true);
+
 
       /*case R.id.record:
         try {
@@ -171,7 +174,12 @@ public class DemoCameraFragment extends CameraFragment implements
         }
 
         return(true);
+
 */
+        case R.id.stand:
+            item.setChecked(!item.isChecked());
+            return (true);
+
       case R.id.autofocus:
         autoFocus();
 
@@ -384,12 +392,14 @@ public class DemoCameraFragment extends CameraFragment implements
 
           int imgH = Resources.getSystem().getDisplayMetrics().heightPixels;
           int imgFaceH = faceheight;
-          int sensorH = 600;
+          if(standing.isChecked())
+          sensorH=1600;
+          else sensorH=1000;
           int faceH = 200;
           float focalL = camera.getParameters().getFocalLength();
           //object height/object image height = face height/face image height
           float distance = focalL * faceH * imgH / (imgFaceH * sensorH); //we need to set calibration
-          System.out.println(distance);
+          System.out.println(sensorH);
 
           if(distance<10)
           zoomTo((int)(distance*10)).go();
@@ -408,7 +418,9 @@ public class DemoCameraFragment extends CameraFragment implements
 
         int imgH = metrics.heightPixels;
         int imgFaceH=faceheight;
-        int sensorH=600;
+        if(standing.isChecked())
+            sensorH=1600;
+        else sensorH=1000;
         int faceH=200;
         float focalL = camera.getParameters().getFocalLength();
         //object height/object image height = face height/face image height
